@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>许愿墙</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <input type="text" class="ipt" placeholder="许个愿吧，按回车键结束">
+    <div class="warrper">
+       
+    </div>
+    <div class="box">
+        <div class="container">
+                <span class="loginPage active btn">登陆</span>
+                <span class="registerPage btn">注册</span>
+            <div class="list">
+                <div class="loginbox" >
+                    <span>用户名：</span><input class="loginUsername" type="text">
+                    <i class="loginUsaer-msg">用户名错误！</i>
+                    <span>密码：</span><input class="loginPass" type="password">
+                    <i class="loginPass-msg">密码错误！</i>
+                    <button class="login" >确定</button>
+                </div>
+                <div class="registerbox">
+                        <span>用户名：</span><input class="registerUser" type="text">
+                        <i class="registerUser-msg" >用户名不可用</i>
+                        <span>昵称：</span><input class="Ncikname" type="text">
+                        <i class="Ncikname-msg" >昵称已存在</i>
+                        <span>密码：</span><input class="registerPass" type="password">
+                        <span>重复密码：</span><input class="repeatPass" type="password">
+                        <i class="registerPass-msg">两次密码不一致</i>
+                        <span>邮箱：</span><input  class="mail" type="text">
+                        <button class="register">确定</button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
